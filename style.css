@@ -1,73 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+* {
+box-sizing: border-box;
+}
+
 body {
     font-family: Montserrat, sans-serif;
     font-size: 13px;
     line-height: 18px;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
 }
 
 #titel {
-    color: #515076;
-}
-.products {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.title {
-    font-size: 70px;
+   font-size: 70px;
     font-weight: 400;
     line-height: 78px;
-    margin: 0;
+    margin: 110px;
     text-align: center;
     color: #515076;
+}
+.products-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 10px;
+    justify-content: center;
+    width:1110px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 0;
+    color: #515076;
+
+}
+.tag {
+    font-size: 12px;
+    line-height: 24px;
+    color: #A5A3B9;
+    text-transform: uppercase;
+}
+.product-card{
+    background-color:#F7F7FA;
+    width: 340px;
+    padding: 25px;
+
 }
 .main-text {
     font-size: 13px;
     line-height: 18px;
     color: #515076;
 }
-
-.button {
-    background-color: #515076;
-    color: #fff;
-    border: 1px solid #000;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 20px;
+.product-price {
+    margin-top: 25px;
 }
 
-.button-green {
-    background-color: #00FF00;
-    color: #fff;
-    border: 1px solid #000;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 20px;
+.price {
+font-size: 20px;
+display: inline-block;
+color: #515076
 }
-
-.button-red {
-    background-color: #FF0000;
-    color: #fff;
-    border: 1px solid #000;
-    border-radius: 5px;
-    padding: 10px 20px;
+.sum {
     font-size: 20px;
-}
-
-.button-grey {
-    background-color: #808080;
-    color: #fff;
-    border: 1px solid #000;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 20px;
-}
-.button-purple {
-    background-color: #800080;
-    color: #fff;
-    border: 1px solid #000;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 20px;
+    line-height: 24px;
+    display: inline-block;
+    margin-left: 150px;
+    color: #515076
 }
