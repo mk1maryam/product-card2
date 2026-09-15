@@ -1,0 +1,11 @@
+.price__text {
+  font-size: 24px;
+  display: inline-block;
+  color: #515076;
+}
+
+.price__sum {
+  font-size: 20px;
+  line-height: 24px;
+  color: #515076;
+}
